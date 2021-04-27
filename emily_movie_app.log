@@ -1,0 +1,844 @@
+2021-04-27 00:00:14,149 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 24308 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 00:00:14,165 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 00:00:14,278 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-27 00:00:14,281 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-27 00:00:15,531 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 00:00:15,550 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2021-04-27 00:00:15,950 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$547d39fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 00:00:16,015 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 00:00:16,399 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 00:00:16,413 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 00:00:16,413 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 00:00:16,758 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 00:00:16,769 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 00:00:16,770 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2489 ms
+2021-04-27 00:00:17,480 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 00:00:17,509 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 00:00:17,560 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 00:00:17,666 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-04-27 00:00:18,077 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-04-27 00:00:18,264 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 00:00:18,687 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 5.136 seconds (JVM running for 6.139)
+2021-04-27 00:00:40,674 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [http-nio-8000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-27 00:00:40,675 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-27 00:00:40,677 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Completed initialization in 2 ms
+2021-04-27 00:00:40,711 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-1] getMovieList()
+2021-04-27 00:01:09,200 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-4] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 00:01:09,203 INFO com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-1 - Shutdown initiated...
+2021-04-27 00:01:09,212 INFO com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-1 - Shutdown completed.
+2021-04-27 00:01:09,311 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 24308 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 00:01:09,312 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 00:01:09,894 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 00:01:09,898 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+2021-04-27 00:01:09,951 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$547d39fa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 00:01:09,953 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 00:01:09,998 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 00:01:09,999 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 00:01:10,000 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 00:01:10,108 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 00:01:10,112 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 00:01:10,112 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 793 ms
+2021-04-27 00:01:10,287 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 00:01:10,297 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 00:01:10,318 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 00:01:10,352 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2021-04-27 00:01:10,375 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2021-04-27 00:01:10,426 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 00:01:10,575 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 1.313 seconds (JVM running for 58.027)
+2021-04-27 00:01:10,578 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 00:01:11,691 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(11)-127.0.0.1] Application shutdown requested.
+2021-04-27 00:01:11,716 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [RMI TCP Connection(11)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 00:01:11,717 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(11)-127.0.0.1] HikariPool-2 - Shutdown initiated...
+2021-04-27 00:01:11,722 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(11)-127.0.0.1] HikariPool-2 - Shutdown completed.
+2021-04-27 00:01:20,557 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 11316 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 00:01:20,560 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 00:01:20,607 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-27 00:01:20,608 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-27 00:01:21,519 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 00:01:21,531 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2021-04-27 00:01:21,900 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f6457e5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 00:01:21,951 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 00:01:22,286 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 00:01:22,298 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 00:01:22,298 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 00:01:22,572 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 00:01:22,580 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 00:01:22,580 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1972 ms
+2021-04-27 00:01:23,202 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 00:01:23,232 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 00:01:23,282 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 00:01:23,384 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-04-27 00:01:23,760 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-04-27 00:01:23,936 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 00:01:24,441 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 4.258 seconds (JVM running for 5.165)
+2021-04-27 00:01:28,894 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [http-nio-8000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-27 00:01:28,896 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-27 00:01:28,900 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Completed initialization in 3 ms
+2021-04-27 00:01:28,946 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-1] getMovieList()
+2021-04-27 00:02:14,226 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-4] getMovieList()
+2021-04-27 00:02:24,633 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-6] getMovieList()
+2021-04-27 00:03:18,877 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-10] getMovieList()
+2021-04-27 00:03:35,762 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-4] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 00:03:35,766 INFO com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-1 - Shutdown initiated...
+2021-04-27 00:03:35,788 INFO com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-1 - Shutdown completed.
+2021-04-27 00:03:35,980 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 11316 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 00:03:35,981 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 00:03:36,699 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 00:03:36,709 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2021-04-27 00:03:36,825 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f6457e5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 00:03:36,832 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 00:03:36,942 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 00:03:36,943 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 00:03:36,944 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 00:03:37,140 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 00:03:37,145 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 00:03:37,145 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1158 ms
+2021-04-27 00:03:37,530 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 00:03:37,567 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 00:03:37,596 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 00:03:37,674 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2021-04-27 00:03:37,777 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2021-04-27 00:03:37,847 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 00:03:38,057 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 2.157 seconds (JVM running for 138.78)
+2021-04-27 00:03:38,060 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 00:03:51,385 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-8] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 00:03:51,389 INFO com.zaxxer.hikari.HikariDataSource [Thread-8] HikariPool-2 - Shutdown initiated...
+2021-04-27 00:03:51,398 INFO com.zaxxer.hikari.HikariDataSource [Thread-8] HikariPool-2 - Shutdown completed.
+2021-04-27 00:03:51,579 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 11316 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 00:03:51,580 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 00:03:51,990 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 00:03:51,993 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+2021-04-27 00:03:52,114 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f6457e5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 00:03:52,115 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 00:03:52,187 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 00:03:52,187 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 00:03:52,187 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 00:03:52,339 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 00:03:52,343 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 00:03:52,343 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 758 ms
+2021-04-27 00:03:52,514 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 00:03:52,526 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 00:03:52,539 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 00:03:52,561 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2021-04-27 00:03:52,592 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2021-04-27 00:03:52,634 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 00:03:52,793 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 1.26 seconds (JVM running for 153.517)
+2021-04-27 00:03:52,809 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 00:04:19,273 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-13] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 00:04:19,274 INFO com.zaxxer.hikari.HikariDataSource [Thread-13] HikariPool-3 - Shutdown initiated...
+2021-04-27 00:04:19,278 INFO com.zaxxer.hikari.HikariDataSource [Thread-13] HikariPool-3 - Shutdown completed.
+2021-04-27 00:04:19,353 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 11316 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 00:04:19,353 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 00:04:19,726 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 00:04:19,730 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2021-04-27 00:04:19,769 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f6457e5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 00:04:19,770 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 00:04:19,802 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 00:04:19,803 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 00:04:19,803 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 00:04:19,876 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 00:04:19,878 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 00:04:19,878 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 521 ms
+2021-04-27 00:04:20,005 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 00:04:20,012 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 00:04:20,029 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 00:04:20,052 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2021-04-27 00:04:20,074 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2021-04-27 00:04:20,107 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 00:04:20,201 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 0.885 seconds (JVM running for 180.925)
+2021-04-27 00:04:20,204 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 00:04:33,682 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [http-nio-8000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-27 00:04:33,684 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-27 00:04:33,686 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Completed initialization in 2 ms
+2021-04-27 00:04:33,689 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-1] getMovieList()
+2021-04-27 00:09:24,580 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-18] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 00:09:24,590 INFO com.zaxxer.hikari.HikariDataSource [Thread-18] HikariPool-4 - Shutdown initiated...
+2021-04-27 00:09:24,612 INFO com.zaxxer.hikari.HikariDataSource [Thread-18] HikariPool-4 - Shutdown completed.
+2021-04-27 00:09:24,854 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 11316 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 00:09:24,855 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 00:09:25,187 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 00:09:25,192 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+2021-04-27 00:09:25,243 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f6457e5d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 00:09:25,245 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 00:09:25,275 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 00:09:25,276 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 00:09:25,276 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 00:09:25,410 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 00:09:25,414 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 00:09:25,414 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 557 ms
+2021-04-27 00:09:25,606 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 00:09:25,612 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 00:09:25,625 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 00:09:25,648 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2021-04-27 00:09:25,673 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2021-04-27 00:09:25,706 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 00:09:25,789 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 0.967 seconds (JVM running for 486.513)
+2021-04-27 00:09:25,792 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 00:09:38,069 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(23)-127.0.0.1] Application shutdown requested.
+2021-04-27 00:09:38,098 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [RMI TCP Connection(23)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 00:09:38,099 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(23)-127.0.0.1] HikariPool-5 - Shutdown initiated...
+2021-04-27 00:09:38,104 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(23)-127.0.0.1] HikariPool-5 - Shutdown completed.
+2021-04-27 00:09:48,653 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 16960 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 00:09:48,656 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 00:09:48,706 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-27 00:09:48,707 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-27 00:09:49,681 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 00:09:49,693 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2021-04-27 00:09:50,009 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e9813988] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 00:09:50,089 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 00:09:50,420 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 00:09:50,431 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 00:09:50,432 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 00:09:50,687 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 00:09:50,697 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 00:09:50,697 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1989 ms
+2021-04-27 00:09:51,366 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 00:09:51,397 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 00:09:51,448 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 00:09:51,565 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-04-27 00:09:51,931 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-04-27 00:09:52,131 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 00:09:52,431 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 4.249 seconds (JVM running for 5.397)
+2021-04-27 00:10:02,614 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [http-nio-8000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-27 00:10:02,616 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-27 00:10:02,617 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Completed initialization in 1 ms
+2021-04-27 00:12:49,029 INFO org.apache.coyote.http11.Http11Processor [http-nio-8000-exec-10] Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target [/api/room?room_num={room_num},room_movie_time={room_movie_time}]. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:490)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-27 00:21:11,483 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-4] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 00:21:11,490 INFO com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-1 - Shutdown initiated...
+2021-04-27 00:21:11,659 INFO com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-1 - Shutdown completed.
+2021-04-27 00:21:20,606 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 22656 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 00:21:20,609 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 00:21:20,653 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-27 00:21:20,653 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-27 00:21:21,526 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 00:21:21,538 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2021-04-27 00:21:21,796 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d6e0815b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 00:21:21,848 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 00:21:22,201 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 00:21:22,212 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 00:21:22,212 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 00:21:22,477 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 00:21:22,489 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 00:21:22,490 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1836 ms
+2021-04-27 00:21:23,075 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 00:21:23,104 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 00:21:23,162 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 00:21:23,255 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-04-27 00:21:23,603 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-04-27 00:21:23,752 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 00:21:24,080 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 3.828 seconds (JVM running for 4.72)
+2021-04-27 00:21:29,020 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [http-nio-8000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-27 00:21:29,021 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-27 00:21:29,021 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Completed initialization in 0 ms
+2021-04-27 00:23:07,915 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-1] getMovieList()
+2021-04-27 00:23:09,043 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-2] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 00:23:23,096 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-4] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 00:24:41,324 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-5] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 00:24:47,233 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-6] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 00:50:58,613 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m4s618ms172µs801ns).
+2021-04-27 00:53:13,023 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-9] getMovieList()
+2021-04-27 00:55:47,819 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-5] getMovieList()
+2021-04-27 00:56:21,867 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-9] getMovieList()
+2021-04-27 01:01:04,570 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-7] getMovieList()
+2021-04-27 01:10:16,601 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-3] getMovieList()
+2021-04-27 01:18:58,863 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-5] getMovieList()
+2021-04-27 01:19:10,506 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-9] getMovieList()
+2021-04-27 01:19:38,113 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-3] getMovieList()
+2021-04-27 01:25:22,368 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-10] getMovieList()
+2021-04-27 01:28:12,863 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-8] getMovieList()
+2021-04-27 01:34:01,874 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-5] getMovieList()
+2021-04-27 01:41:38,368 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-1] getMovieList()
+2021-04-27 01:44:32,396 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-4] getMovieList()
+2021-04-27 01:46:24,714 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-9] getMovieList()
+2021-04-27 01:58:49,190 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-8] getMovieList()
+2021-04-27 02:02:28,901 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-3] getMovieList()
+2021-04-27 02:02:39,440 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-5] getMovieList()
+2021-04-27 02:04:14,565 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-4] getMovieList()
+2021-04-27 02:06:08,493 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-9] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 02:06:13,028 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-10] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 08:58:02,886 INFO org.apache.coyote.http11.Http11Processor [http-nio-8000-exec-2] Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x030x000x990x010x000x000x950x030x03`0x87*0x040x130xb10xa70x17j0xbe0xa40x97@0x1f0xf00xdb0xdd0xc9+A[0xee0x120xceM0xda0x9f0xc10x03(0xca0x980x000x0040xc0(0xc0'0xc00x140xc00x130x000x9f0x000x9e0x000x9d0x000x9c0xc0,0xc0+0xc0$0xc0#0xc00x0a0xc00x090x00=0x00<0x0050x00/0x00j0x00@0x0080x0020x000x0a0x000x130x000x050x000x040x010x000x0080xff0x010x000x010x000x000x050x000x050x010x000x000x000x000x000x0a0x000x080x000x060x000x170x000x180x000x190x000x0b0x000x020x010x000x000x0d0x000x140x000x120x060x010x060x030x040x010x050x010x020x010x040x030x050x030x020x030x020x020x150x030x030x000x020x01...]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:417)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-27 08:58:25,339 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6h21m22s618ms953µs900ns).
+2021-04-27 09:18:58,228 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-1] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 09:19:37,726 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-3] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 09:19:47,306 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-2] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 09:20:10,831 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-4] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 09:20:16,258 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-5] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 09:25:14,315 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-6] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 09:25:19,188 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-7] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 09:25:52,508 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-8] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 09:26:17,062 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-9] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 09:26:23,217 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-10] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 09:26:59,073 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-1] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 09:28:21,375 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-4] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 09:29:46,560 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-5] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 09:30:06,183 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-6] getMovieList()
+2021-04-27 09:30:30,797 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-8] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 09:40:59,750 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-9] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 09:41:26,912 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-10] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 09:41:27,795 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-1] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 09:41:28,055 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-3] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 09:41:28,277 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-2] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 09:41:28,482 WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8000-exec-4] Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'room_num' for method parameter type String is not present]
+2021-04-27 09:50:33,422 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-7] getMovieList()
+2021-04-27 09:54:50,247 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-4] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 09:54:50,259 INFO com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-1 - Shutdown initiated...
+2021-04-27 09:54:50,345 INFO com.zaxxer.hikari.HikariDataSource [Thread-4] HikariPool-1 - Shutdown completed.
+2021-04-27 09:54:50,949 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 22656 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 09:54:50,949 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 09:54:51,729 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 09:54:51,736 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2021-04-27 09:54:51,823 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d6e0815b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 09:54:51,826 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 09:54:51,924 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 09:54:51,926 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 09:54:51,927 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 09:54:52,126 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 09:54:52,130 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 09:54:52,130 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1173 ms
+2021-04-27 09:54:52,375 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 09:54:52,392 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 09:54:52,417 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 09:54:52,456 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2021-04-27 09:54:52,499 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2021-04-27 09:54:52,562 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 09:54:52,700 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 1.858 seconds (JVM running for 34413.34)
+2021-04-27 09:54:52,703 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 09:55:23,412 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-8] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 09:55:23,415 INFO com.zaxxer.hikari.HikariDataSource [Thread-8] HikariPool-2 - Shutdown initiated...
+2021-04-27 09:55:23,426 INFO com.zaxxer.hikari.HikariDataSource [Thread-8] HikariPool-2 - Shutdown completed.
+2021-04-27 09:55:23,548 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 22656 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 09:55:23,549 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 09:55:24,048 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 09:55:24,050 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+2021-04-27 09:55:24,108 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d6e0815b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 09:55:24,111 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 09:55:24,166 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 09:55:24,166 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 09:55:24,167 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 09:55:24,272 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 09:55:24,277 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 09:55:24,277 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 724 ms
+2021-04-27 09:55:24,472 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 09:55:24,488 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 09:55:24,519 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 09:55:24,564 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2021-04-27 09:55:24,611 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2021-04-27 09:55:24,686 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 09:55:24,863 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 1.367 seconds (JVM running for 34445.503)
+2021-04-27 09:55:24,865 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 09:55:39,306 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-13] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 09:55:39,309 INFO com.zaxxer.hikari.HikariDataSource [Thread-13] HikariPool-3 - Shutdown initiated...
+2021-04-27 09:55:39,318 INFO com.zaxxer.hikari.HikariDataSource [Thread-13] HikariPool-3 - Shutdown completed.
+2021-04-27 09:55:39,415 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 22656 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 09:55:39,415 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 09:55:39,792 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 09:55:39,795 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+2021-04-27 09:55:39,835 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d6e0815b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 09:55:39,837 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 09:55:39,882 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 09:55:39,882 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 09:55:39,882 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 09:55:39,980 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 09:55:39,983 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 09:55:39,983 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 563 ms
+2021-04-27 09:55:40,171 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 09:55:40,183 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 09:55:40,201 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 09:55:40,222 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2021-04-27 09:55:40,252 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2021-04-27 09:55:40,295 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 09:55:40,403 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 1.022 seconds (JVM running for 34461.042)
+2021-04-27 09:55:40,407 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 09:56:12,214 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-18] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 09:56:12,217 INFO com.zaxxer.hikari.HikariDataSource [Thread-18] HikariPool-4 - Shutdown initiated...
+2021-04-27 09:56:12,227 INFO com.zaxxer.hikari.HikariDataSource [Thread-18] HikariPool-4 - Shutdown completed.
+2021-04-27 09:56:12,349 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 22656 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 09:56:12,349 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 09:56:12,874 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 09:56:12,878 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+2021-04-27 09:56:12,916 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d6e0815b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 09:56:12,918 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 09:56:12,979 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 09:56:12,980 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 09:56:12,980 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 09:56:13,073 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 09:56:13,075 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 09:56:13,075 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 723 ms
+2021-04-27 09:56:13,221 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 09:56:13,232 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 09:56:13,258 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 09:56:13,287 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2021-04-27 09:56:13,313 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2021-04-27 09:56:13,357 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 09:56:13,506 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 1.193 seconds (JVM running for 34494.146)
+2021-04-27 09:56:13,509 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 09:56:44,238 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-23] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 09:56:44,247 INFO com.zaxxer.hikari.HikariDataSource [Thread-23] HikariPool-5 - Shutdown initiated...
+2021-04-27 09:56:44,253 INFO com.zaxxer.hikari.HikariDataSource [Thread-23] HikariPool-5 - Shutdown completed.
+2021-04-27 09:56:44,337 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 22656 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 09:56:44,338 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 09:56:44,755 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 09:56:44,758 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+2021-04-27 09:56:44,793 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d6e0815b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 09:56:44,795 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 09:56:44,837 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 09:56:44,839 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 09:56:44,839 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 09:56:44,935 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 09:56:44,937 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 09:56:44,938 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 595 ms
+2021-04-27 09:56:45,132 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 09:56:45,141 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 09:56:45,156 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 09:56:45,189 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+2021-04-27 09:56:45,239 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+2021-04-27 09:56:45,312 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 09:56:45,469 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 1.165 seconds (JVM running for 34526.109)
+2021-04-27 09:56:45,473 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 09:56:55,188 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [http-nio-8000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-27 09:56:55,189 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-27 09:56:55,193 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Completed initialization in 3 ms
+2021-04-27 09:56:55,196 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-1] getMovieList()
+2021-04-27 10:14:44,703 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-2] getMovieList()
+2021-04-27 10:15:30,719 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-5] getMovieList()
+2021-04-27 10:24:21,199 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-8] getMovieList()
+2021-04-27 10:24:21,597 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-9] getMovieList()
+2021-04-27 10:54:29,782 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-4] getMovieList()
+2021-04-27 11:00:42,584 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-9] getMovieList()
+2021-04-27 11:00:43,151 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-10] getMovieList()
+2021-04-27 11:12:48,271 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-4] getMovieList()
+2021-04-27 11:13:34,403 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-8] getMovieList()
+2021-04-27 11:13:55,786 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-1] getMovieList()
+2021-04-27 11:16:17,323 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-4] getMovieList()
+2021-04-27 11:16:31,537 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-7] getMovieList()
+2021-04-27 11:17:13,577 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-10] getMovieList()
+2021-04-27 11:18:36,082 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-2] getMovieList()
+2021-04-27 11:29:45,652 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-28] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 11:29:45,667 INFO com.zaxxer.hikari.HikariDataSource [Thread-28] HikariPool-6 - Shutdown initiated...
+2021-04-27 11:29:45,683 INFO com.zaxxer.hikari.HikariDataSource [Thread-28] HikariPool-6 - Shutdown completed.
+2021-04-27 11:29:46,479 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 22656 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 11:29:46,480 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 11:29:47,026 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 11:29:47,031 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+2021-04-27 11:29:47,114 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d6e0815b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 11:29:47,117 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 11:29:47,229 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 11:29:47,231 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 11:29:47,231 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 11:29:47,371 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 11:29:47,374 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 11:29:47,374 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 889 ms
+2021-04-27 11:29:47,675 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 11:29:47,687 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 11:29:47,711 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 11:29:47,756 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Starting...
+2021-04-27 11:29:47,794 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-7 - Start completed.
+2021-04-27 11:29:47,844 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 11:29:47,973 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 1.73 seconds (JVM running for 40108.613)
+2021-04-27 11:29:47,978 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 11:37:41,442 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-33] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 11:37:41,451 INFO com.zaxxer.hikari.HikariDataSource [Thread-33] HikariPool-7 - Shutdown initiated...
+2021-04-27 11:37:41,472 INFO com.zaxxer.hikari.HikariDataSource [Thread-33] HikariPool-7 - Shutdown completed.
+2021-04-27 11:37:41,649 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 22656 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 11:37:41,649 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 11:37:42,183 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 11:37:42,188 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+2021-04-27 11:37:42,241 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d6e0815b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 11:37:42,243 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 11:37:42,283 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 11:37:42,284 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 11:37:42,284 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 11:37:42,407 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 11:37:42,410 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 11:37:42,410 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 757 ms
+2021-04-27 11:37:42,612 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 11:37:42,625 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 11:37:42,649 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 11:37:42,695 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Starting...
+2021-04-27 11:37:42,738 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
+2021-04-27 11:37:42,805 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 11:37:42,933 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 1.343 seconds (JVM running for 40583.573)
+2021-04-27 11:37:42,935 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 11:37:58,054 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [http-nio-8000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-27 11:37:58,054 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-27 11:37:58,056 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Completed initialization in 1 ms
+2021-04-27 11:38:23,230 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api].[dispatcherServlet] [http-nio-8000-exec-9] Servlet.service() for servlet [dispatcherServlet] in context with path [/api] threw exception [Handler dispatch failed; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert ";" to complete BlockStatements
+] with root cause
+java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert ";" to complete BlockStatements
+
+	at com.tsis.movie.controller.MovieController.putBooking(MovieController.java:53) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.45.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.45.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]
+2021-04-27 11:39:19,719 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-38] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 11:39:19,726 INFO com.zaxxer.hikari.HikariDataSource [Thread-38] HikariPool-8 - Shutdown initiated...
+2021-04-27 11:39:19,741 INFO com.zaxxer.hikari.HikariDataSource [Thread-38] HikariPool-8 - Shutdown completed.
+2021-04-27 11:39:19,921 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 22656 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 11:39:19,922 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 11:39:20,998 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 11:39:21,007 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
+2021-04-27 11:39:21,119 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d6e0815b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 11:39:21,122 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 11:39:21,232 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 11:39:21,233 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 11:39:21,234 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 11:39:21,456 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 11:39:21,460 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 11:39:21,460 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1533 ms
+2021-04-27 11:39:21,806 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 11:39:21,821 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 11:39:21,855 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 11:39:21,901 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Starting...
+2021-04-27 11:39:21,947 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-9 - Start completed.
+2021-04-27 11:39:22,026 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 11:39:22,177 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [http-nio-8000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-27 11:39:22,177 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-27 11:39:22,179 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Completed initialization in 2 ms
+2021-04-27 11:39:22,250 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 2.397 seconds (JVM running for 40682.891)
+2021-04-27 11:39:22,254 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 11:45:39,501 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-8] getMovieList()
+2021-04-27 11:46:02,998 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-10] getMovieList()
+2021-04-27 11:52:11,528 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-6] getMovieList()
+2021-04-27 11:52:25,712 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-7] getMovieList()
+2021-04-27 13:15:46,069 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-9 housekeeper] HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=1h21m53s981ms599µs300ns).
+2021-04-27 13:22:20,133 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-1] getMovieList()
+2021-04-27 13:45:18,882 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-43] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 13:45:18,902 INFO com.zaxxer.hikari.HikariDataSource [Thread-43] HikariPool-9 - Shutdown initiated...
+2021-04-27 13:45:18,929 INFO com.zaxxer.hikari.HikariDataSource [Thread-43] HikariPool-9 - Shutdown completed.
+2021-04-27 13:45:19,661 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 22656 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 13:45:19,663 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 13:45:20,155 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 13:45:20,162 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+2021-04-27 13:45:20,333 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d6e0815b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 13:45:20,349 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 13:45:20,489 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 13:45:20,491 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 13:45:20,491 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 13:45:20,657 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 13:45:20,662 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 13:45:20,662 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 995 ms
+2021-04-27 13:45:20,951 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 13:45:20,969 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 13:45:20,998 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 13:45:21,056 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Starting...
+2021-04-27 13:45:21,108 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-10 - Start completed.
+2021-04-27 13:45:21,147 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 13:45:21,229 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 1.788 seconds (JVM running for 48241.869)
+2021-04-27 13:45:21,231 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 13:46:03,834 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-48] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 13:46:03,836 INFO com.zaxxer.hikari.HikariDataSource [Thread-48] HikariPool-10 - Shutdown initiated...
+2021-04-27 13:46:03,846 INFO com.zaxxer.hikari.HikariDataSource [Thread-48] HikariPool-10 - Shutdown completed.
+2021-04-27 13:46:03,959 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 22656 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 13:46:03,960 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 13:46:04,342 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 13:46:04,347 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+2021-04-27 13:46:04,388 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d6e0815b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 13:46:04,392 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 13:46:04,457 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 13:46:04,459 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 13:46:04,459 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 13:46:04,609 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 13:46:04,612 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 13:46:04,612 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 648 ms
+2021-04-27 13:46:04,876 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 13:46:04,888 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 13:46:04,914 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 13:46:04,955 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-11 - Starting...
+2021-04-27 13:46:04,987 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-11 - Start completed.
+2021-04-27 13:46:05,035 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 13:46:05,159 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 1.241 seconds (JVM running for 48285.8)
+2021-04-27 13:46:05,161 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 13:46:11,624 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-53] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 13:46:11,627 INFO com.zaxxer.hikari.HikariDataSource [Thread-53] HikariPool-11 - Shutdown initiated...
+2021-04-27 13:46:11,634 INFO com.zaxxer.hikari.HikariDataSource [Thread-53] HikariPool-11 - Shutdown completed.
+2021-04-27 13:46:11,719 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 22656 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 13:46:11,720 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 13:46:12,141 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 13:46:12,144 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2021-04-27 13:46:12,178 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d6e0815b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 13:46:12,178 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 13:46:12,211 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 13:46:12,213 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 13:46:12,213 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 13:46:12,300 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 13:46:12,302 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 13:46:12,302 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 577 ms
+2021-04-27 13:46:12,438 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 13:46:12,445 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 13:46:12,459 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 13:46:12,479 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Starting...
+2021-04-27 13:46:12,505 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-12 - Start completed.
+2021-04-27 13:46:12,545 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 13:46:12,633 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 0.939 seconds (JVM running for 48293.273)
+2021-04-27 13:46:12,638 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 13:46:18,124 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-58] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 13:46:18,127 INFO com.zaxxer.hikari.HikariDataSource [Thread-58] HikariPool-12 - Shutdown initiated...
+2021-04-27 13:46:18,134 INFO com.zaxxer.hikari.HikariDataSource [Thread-58] HikariPool-12 - Shutdown completed.
+2021-04-27 13:46:18,250 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 22656 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 13:46:18,251 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 13:46:18,978 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 13:46:18,984 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+2021-04-27 13:46:19,073 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d6e0815b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 13:46:19,076 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 13:46:19,215 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 13:46:19,219 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 13:46:19,221 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 13:46:19,431 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 13:46:19,436 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 13:46:19,436 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1182 ms
+2021-04-27 13:46:19,683 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 13:46:19,698 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 13:46:19,725 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 13:46:19,761 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-13 - Starting...
+2021-04-27 13:46:19,803 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-13 - Start completed.
+2021-04-27 13:46:19,869 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 13:46:20,048 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 1.832 seconds (JVM running for 48300.688)
+2021-04-27 13:46:20,052 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 13:46:26,404 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [http-nio-8000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-27 13:46:26,406 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-27 13:46:26,408 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Completed initialization in 2 ms
+2021-04-27 14:41:12,589 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-7] getMovieList()
+2021-04-27 14:43:27,626 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-1] getMovieList()
+2021-04-27 14:46:39,548 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-7] getMovieList()
+2021-04-27 14:51:35,480 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-4] getMovieList()
+2021-04-27 14:53:00,460 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-10] getMovieList()
+2021-04-27 14:57:31,669 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-7] getMovieList()
+2021-04-27 14:59:23,941 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-1] getMovieList()
+2021-04-27 15:00:57,399 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-5] getMovieList()
+2021-04-27 15:02:57,600 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-9] getMovieList()
+2021-04-27 15:05:16,004 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-7] getMovieList()
+2021-04-27 15:06:32,672 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-10] getMovieList()
+2021-04-27 15:07:30,357 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-5] getMovieList()
+2021-04-27 15:07:42,859 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-7] getMovieList()
+2021-04-27 15:09:20,682 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-6] getMovieList()
+2021-04-27 15:09:44,751 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-3] getMovieList()
+2021-04-27 15:10:59,535 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-7] getMovieList()
+2021-04-27 15:11:19,188 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-9] getMovieList()
+2021-04-27 15:13:09,625 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-6] getMovieList()
+2021-04-27 15:15:04,591 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-5] getMovieList()
+2021-04-27 15:16:07,937 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-9] getMovieList()
+2021-04-27 15:17:19,326 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-2] getMovieList()
+2021-04-27 15:20:44,477 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-8] getMovieList()
+2021-04-27 15:26:44,573 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-2] getMovieList()
+2021-04-27 15:30:38,157 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-8] getMovieList()
+2021-04-27 15:32:05,016 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-6] getMovieList()
+2021-04-27 15:35:48,661 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-4] getMovieList()
+2021-04-27 15:40:36,976 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-6] getMovieList()
+2021-04-27 15:41:35,171 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-5] getMovieList()
+2021-04-27 15:47:17,106 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-1] getMovieList()
+2021-04-27 15:51:14,710 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-1] getMovieList()
+2021-04-27 16:15:22,517 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-7] getMovieList()
+2021-04-27 16:19:05,556 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-10] getMovieList()
+2021-04-27 16:22:12,419 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-2] getMovieList()
+2021-04-27 16:27:31,137 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-7] getMovieList()
+2021-04-27 16:29:29,527 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-63] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 16:29:29,530 INFO com.zaxxer.hikari.HikariDataSource [Thread-63] HikariPool-13 - Shutdown initiated...
+2021-04-27 16:29:29,543 INFO com.zaxxer.hikari.HikariDataSource [Thread-63] HikariPool-13 - Shutdown completed.
+2021-04-27 16:29:30,139 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 22656 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 16:29:30,139 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 16:29:30,835 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 16:29:30,838 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+2021-04-27 16:29:30,926 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d6e0815b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 16:29:30,932 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 16:29:31,031 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 16:29:31,032 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 16:29:31,032 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 16:29:31,155 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 16:29:31,158 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 16:29:31,158 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1002 ms
+2021-04-27 16:29:31,369 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 16:29:31,381 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 16:29:31,399 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 16:29:31,447 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-14 - Starting...
+2021-04-27 16:29:31,470 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-14 - Start completed.
+2021-04-27 16:29:31,519 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 16:29:31,624 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 1.602 seconds (JVM running for 58092.265)
+2021-04-27 16:29:31,626 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 16:30:34,811 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-68] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 16:30:34,814 INFO com.zaxxer.hikari.HikariDataSource [Thread-68] HikariPool-14 - Shutdown initiated...
+2021-04-27 16:30:34,821 INFO com.zaxxer.hikari.HikariDataSource [Thread-68] HikariPool-14 - Shutdown completed.
+2021-04-27 16:30:34,951 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 22656 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 16:30:34,952 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 16:30:35,500 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 16:30:35,504 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+2021-04-27 16:30:35,566 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d6e0815b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 16:30:35,568 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 16:30:35,634 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 16:30:35,634 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 16:30:35,635 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 16:30:35,809 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 16:30:35,816 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 16:30:35,817 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 860 ms
+2021-04-27 16:30:36,010 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 16:30:36,018 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 16:30:36,036 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 16:30:36,058 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-15 - Starting...
+2021-04-27 16:30:36,083 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-15 - Start completed.
+2021-04-27 16:30:36,125 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 16:30:36,219 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 1.324 seconds (JVM running for 58156.859)
+2021-04-27 16:30:36,225 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 16:31:24,990 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-73] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 16:31:24,991 INFO com.zaxxer.hikari.HikariDataSource [Thread-73] HikariPool-15 - Shutdown initiated...
+2021-04-27 16:31:24,995 INFO com.zaxxer.hikari.HikariDataSource [Thread-73] HikariPool-15 - Shutdown completed.
+2021-04-27 16:31:25,081 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 22656 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 16:31:25,081 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 16:31:25,519 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 16:31:25,524 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 4 ms. Found 0 JDBC repository interfaces.
+2021-04-27 16:31:25,584 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d6e0815b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 16:31:25,586 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 16:31:25,628 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 16:31:25,633 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 16:31:25,634 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 16:31:25,723 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 16:31:25,728 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 16:31:25,728 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 642 ms
+2021-04-27 16:31:25,859 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 16:31:25,866 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 16:31:25,878 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 16:31:25,898 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-16 - Starting...
+2021-04-27 16:31:25,923 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-16 - Start completed.
+2021-04-27 16:31:25,959 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 16:31:26,053 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 1.004 seconds (JVM running for 58206.693)
+2021-04-27 16:31:26,056 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 16:33:13,773 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-78] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 16:33:13,777 INFO com.zaxxer.hikari.HikariDataSource [Thread-78] HikariPool-16 - Shutdown initiated...
+2021-04-27 16:33:13,785 INFO com.zaxxer.hikari.HikariDataSource [Thread-78] HikariPool-16 - Shutdown completed.
+2021-04-27 16:33:13,935 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 22656 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 16:33:13,935 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 16:33:14,303 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 16:33:14,307 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+2021-04-27 16:33:14,370 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d6e0815b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 16:33:14,372 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 16:33:14,412 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 16:33:14,413 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 16:33:14,413 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 16:33:14,501 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 16:33:14,504 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 16:33:14,504 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 566 ms
+2021-04-27 16:33:14,637 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 16:33:14,643 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 16:33:14,659 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 16:33:14,690 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-17 - Starting...
+2021-04-27 16:33:14,712 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-17 - Start completed.
+2021-04-27 16:33:14,746 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 16:33:14,835 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 0.955 seconds (JVM running for 58315.474)
+2021-04-27 16:33:14,837 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 16:35:21,449 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [Thread-83] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-27 16:35:21,450 INFO com.zaxxer.hikari.HikariDataSource [Thread-83] HikariPool-17 - Shutdown initiated...
+2021-04-27 16:35:21,455 INFO com.zaxxer.hikari.HikariDataSource [Thread-83] HikariPool-17 - Shutdown completed.
+2021-04-27 16:35:21,534 INFO com.tsis.movie.MovieApplication [restartedMain] Starting MovieApplication using Java 15.0.2 on DESKTOP-0OH68IM with PID 22656 (C:\Users\Emily Choi\Desktop\STS\movie\target\classes started by Emily Choi in C:\Users\Emily Choi\Desktop\STS\movie)
+2021-04-27 16:35:21,535 INFO com.tsis.movie.MovieApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-27 16:35:21,801 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-04-27 16:35:21,804 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 3 ms. Found 0 JDBC repository interfaces.
+2021-04-27 16:35:21,840 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$d6e0815b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-27 16:35:21,841 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-04-27 16:35:21,870 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8000 (http)
+2021-04-27 16:35:21,870 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2021-04-27 16:35:21,870 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-04-27 16:35:21,927 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-04-27 16:35:21,929 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-27 16:35:21,929 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 393 ms
+2021-04-27 16:35:22,038 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-27 16:35:22,042 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-27 16:35:22,053 ERROR com.tsis.movie.MvcConfig [restartedMain] [addResourceHandlers]
+2021-04-27 16:35:22,075 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-18 - Starting...
+2021-04-27 16:35:22,093 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-18 - Start completed.
+2021-04-27 16:35:22,125 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8000 (http) with context path '/api'
+2021-04-27 16:35:22,209 INFO com.tsis.movie.MovieApplication [restartedMain] Started MovieApplication in 0.702 seconds (JVM running for 58442.849)
+2021-04-27 16:35:22,211 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-27 16:35:28,820 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/api] [http-nio-8000-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-27 16:35:28,820 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-27 16:35:28,821 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8000-exec-1] Completed initialization in 1 ms
+2021-04-27 16:53:24,832 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-1] getMovieList()
+2021-04-27 17:04:57,871 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-5] getMovieList()
+2021-04-27 17:05:27,321 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-6] getMovieList()
+2021-04-27 17:07:54,023 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-8] getMovieList()
+2021-04-27 17:08:00,054 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-9] getMovieList()
+2021-04-27 17:08:53,226 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-1] getMovieList()
+2021-04-27 17:09:10,166 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-2] getMovieList()
+2021-04-27 17:09:12,414 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-3] getMovieList()
+2021-04-27 17:10:41,108 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-7] getMovieList()
+2021-04-27 17:10:43,263 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-6] getMovieList()
+2021-04-27 17:13:17,168 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-3] getMovieList()
+2021-04-27 17:25:51,484 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-1] getMovieList()
+2021-04-27 17:27:28,032 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-5] getMovieList()
+2021-04-27 17:28:55,979 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-4] getMovieList()
+2021-04-27 17:32:21,928 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-10] getMovieList()
+2021-04-27 17:45:53,175 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-5] getMovieList()
+2021-04-27 17:46:31,757 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-6] getMovieList()
+2021-04-27 17:46:52,793 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-8] getMovieList()
+2021-04-27 18:26:09,908 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-18 housekeeper] HikariPool-18 - Thread starvation or clock leap detected (housekeeper delta=11m46s186ms406µs300ns).
+2021-04-27 18:36:28,316 INFO com.tsis.movie.controller.MovieController [http-nio-8000-exec-3] getMovieList()
